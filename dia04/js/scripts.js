@@ -16,4 +16,4 @@ while(tentativas<3){
         alert(`${guess} não está correto, tente de novo`);
     }
     tentativas++;
-}
+} 
