@@ -9,7 +9,6 @@ let resposta  = prompt(`Você gosta de estudar ${linguagem}? Responda com o núm
 
 if(resposta==1){
     alert("Muito bom! Continue estudando e você terá muito sucesso.");
-
-}else if(resposta==2){
+} else if(resposta==2){
     alert("Ahh que pena... Já tentou aprender outras linguagens?");
 }
