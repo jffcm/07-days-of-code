@@ -7,12 +7,13 @@ let adicionarMais = 'sim';
 let comida = "";
 let categoria = "";
 
-while(adicionarMais != 'não'){
-    adicionarMais = prompt("Você deseja adicionar uma comida na lista de compras? Responda 'sim' ou 'não'.").toLocaleLowerCase();
-    if(adicionarMais === 'sim'){
+while (adicionarMais !== 'não') {
+    adicionarMais = prompt("Você deseja adicionar uma comida na lista de compras? Responda 'sim' ou 'não'.").toLowerCase();
+    if (adicionarMais === 'sim') {
         comida = prompt("Qual comida você deseja inserir?");
-        categoria = prompt (`Em qual categoria ${comida} se encaixa? Frutas, Doces, Congelados, Outros`).toLocaleLowerCase();
-        switch(categoria){
+        categoria = prompt(`Em qual categoria ${comida} se encaixa? Frutas, Doces, Congelados, Outros`).toLowerCase();
+
+        switch (categoria) {
             case 'frutas':
                 frutas.push(comida);
                 break;
@@ -24,18 +25,14 @@ while(adicionarMais != 'não'){
                 break;
             case 'outros':
                 outros.push(comida);
-                break
+                break;
             default:
                 alert(`Categoria ${categoria} não foi pré-definida.`);
         }
 
-    } else if(adicionarMais === 'não'){
+    } else if (adicionarMais === 'não' || adicionarMais === 'no') {
         alert(`Lista de compras: \nFrutas: ${frutas} \nDoces: ${doces} \nCongelados: ${congelados} \nOutros: ${outros}`);
-    
     } else {
         alert(`Operação não reconhecida!`);
     }
 }
-
-
-
