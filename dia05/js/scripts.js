@@ -30,7 +30,7 @@ while (adicionarMais !== 'não') {
                 alert(`Categoria ${categoria} não foi pré-definida.`);
         }
 
-    } else if (adicionarMais === 'não' || adicionarMais === 'no') {
+    } else if (adicionarMais === 'não') {
         alert(`Lista de compras: \nFrutas: ${frutas} \nDoces: ${doces} \nCongelados: ${congelados} \nOutros: ${outros}`);
     } else {
         alert(`Operação não reconhecida!`);
