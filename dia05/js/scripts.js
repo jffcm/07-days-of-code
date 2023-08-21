@@ -1,3 +1,4 @@
+
 let frutas = [];
 let doces = [];
 let congelados = [];
