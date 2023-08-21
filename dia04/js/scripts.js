@@ -2,7 +2,7 @@
 const randomNum = Math.floor(Math.random() * (10 - 0 + 1)) + 0;
 let tentativas = 0;
 
-while (tentativas < 3) {
+while(tentativas < 3){
     let guess = parseInt(prompt("Tente adivinhar um número entre 0 e 10:"));
 
     if (guess === randomNum) {
