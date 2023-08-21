@@ -23,7 +23,7 @@ if (fullstack == "sim") {
 
 let tecnologias = prompt("Gostaria de aprender sobre mais alguma tecnologia? Digite 'sim' ou 'não'.");
 
-while(tecnologias == "sim"){
+while (tecnologias == "sim") {
     const nomeDasTecnologias = prompt("Qual?");
     alert(`${nomeDasTecnologias} é realmente uma tecnologia muito legal!`);
     tecnologias = prompt("Gostaria de aprender sobre mais alguma tecnologia? Digite 'sim' ou 'não'.");
