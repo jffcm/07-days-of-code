@@ -60,7 +60,7 @@ function removeItem(comida, categoria){
         case 'frutas':
             index = frutas.indexOf(comida);
             
-            if(frutas.includes(comida)){
+            if (frutas.includes(comida)) {
                 frutas.splice(index, 1)
             
             } else {
@@ -71,7 +71,7 @@ function removeItem(comida, categoria){
         case 'doces':
             index = doces.indexOf(comida);
 
-            if(doces.includes(comida)){
+            if (doces.includes(comida)) {
                 doces.splice(index, 1)
             
             } else {
@@ -82,7 +82,7 @@ function removeItem(comida, categoria){
         case 'congelados':
             index = congelados.indexOf(comida);
 
-            if(congelados.includes(comida)){
+            if (congelados.includes(comida)) {
                 congelados.splice(index, 1)
             
             } else {
@@ -93,7 +93,7 @@ function removeItem(comida, categoria){
         case 'outros':
             index = outros.indexOf(comida);
 
-            if(outros.includes(comida)){
+            if (outros.includes(comida)) {
                 outros.splice(index, 1)
             
             } else {
