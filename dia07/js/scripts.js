@@ -3,7 +3,7 @@ const operacao = prompt("Digite o símbolo da operação que você deseja realiz
 let numero1;
 let numero2;
 
-switch(operacao){
+switch (operacao) {
     case '+':
         numero1 = parseFloat(prompt("Insira o primeiro valor"));
         numero2 = parseFloat(prompt("Insira o segundo valor"));
